@@ -13,6 +13,8 @@ export class SmallCardComponent implements OnInit {
   imagePlaceholder:string = "";
   @Input()
   cardTitle:string = "";
+  @Input()
+  id:String = "0";
   constructor() { }
 
   ngOnInit(): void {
